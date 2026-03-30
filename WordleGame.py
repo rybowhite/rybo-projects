@@ -1,0 +1,26 @@
+##Uzupelnianie premade zdan inputem uzytkownika
+print (f'\n\nKochana Zosiczko! \nSpytam cie o kilka slowek, \ndzieki ktorym zbudujemy historyjke :)!\n\n')
+
+imie1 = input('Podaj mi imie meskie: ')
+noun1 = input('Podaj mi rzeczownik1: ')
+imie2 = input('Podaj mi imie zenskie: ')  
+noun2 = input('Podaj mi rzeczownik2: ')
+noun3 = input('Podaj mi rzeczownik3: ')
+verb1 = input('Podaj mi czasownik1 (w bezokoliczniku): ')
+verb2 = input('Podaj mi czasownik2 (w bezokoliczniku): ')
+verb3 = input('Podaj mi czasownik3 (w bezokoliczniku): ')
+verb4 = input('Podaj mi czasownik4 (w dopelniaczu): ')
+adjective1 = input('Podaj mi przymiotnik1: ')
+adjective2 = input('Podaj mi przymiotnik2 (żeński): ')
+adjective3 = input('Podaj mi przymiotnik3: ')
+adjective4 = input('Podaj mi przymiotnik4: ')  
+print ('\n\n\nZa górami, za lasami...')
+print (f'Krol diablow zly zlodupiec ma na imię {imie1}. ')
+print (f'{imie1} używa {adjective1} {noun1} jako atrybutu władzy, którym symbolizuje swoją potęgę.')
+print (f'\nPewnego dnia {imie1} postanowił {verb1}, aby zdobyć jeszcze większą władzę.')
+print (f'Byl to niecny plan, ktory jego doradcy ocenili jednak jako {adjective3}.')
+       
+print (f'\nPlan ten oznaczal atak na wioske, w której mieszkała {imie2}, wiecznie {adjective2} dziewczyna z prostej rodziny')
+print (f'Wiedziala ona ze jesli {imie1} zdecyduje sie na atak poprzez zmuszenie mieszkańców, żeby {verb2}, mieszkancom wioski pozostanie tylko {verb3} aby sie obronic.')
+print (f'Wtedy {imie2} wykorzystala artefakt swojej rodziny: {adjective4} {noun2} i wykorzystala jego magiczna moc (czyli prastara moc {verb4}) zeby naprawic {imie1} (she fixed him) i zyli dlugo i szczesliwie i zakochani a wioska byla super prosperujaca.')
+
